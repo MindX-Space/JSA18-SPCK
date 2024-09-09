@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoodShoes</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <link rel="shortcut icon"
+      href="https://static.vecteezy.com/system/resources/previews/004/458/733/original/basketball-shoe-and-ball-linear-icon-thin-line-illustration-contour-symbol-isolated-outline-drawing-vector.jpg"
+      type="image/x-icon">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-info"
+      data-bs-theme="bright">
+      <div class="container" style="margin: 0px 30px 0px 30px;">
+        <div class="col-md-4">
+          <a href="./index.html" class="navbar-brand d-flex">
+            <img
+              src="./images/shoes-image-removebg-preview-removebg-preview.png"
+              style="width: 20%; margin: 0;" alt="">
+            <h2 style="padding-top: 10px; color: white; font-size: 45px;">GoodShoes</h2>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse col-md-6">
+          <ul class="navbar-nav" style="padding-right: 15px;">
+            <li class="nav-item active">
+              <a href="./shoes.html" class="nav-link" style="font-size: 30px;
+                color: white;">Sale</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav" style="padding-right: 15px;">
+            <li class="nav-item active">
+              <a href="./shoes.html" class="nav-link" style="font-size: 30px;
+                color: white;">Shoes</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav" style="padding-right: 15px;">
+            <li class="nav-item active">
+              <a href="./balls.html" class="nav-link" style="font-size: 30px;
+                color: white;">Balls</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav" style="padding-right: 15px;">
+            <li class="nav-item active">
+              <a href="./backpacks.html" class="nav-link" style="font-size:
+                30px; color: white;">Backpacks</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 d-flex">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search"
+              aria-label="Search">
+          </form>
+          <div class="col-md-1"></div>
+          <a href="./login.html"><button class="btn btn-outline-light">Log out</button></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- top choice shoes  -->
+    <style>
+    .carousel-indicators img {
+      width: 70px;
+      display: block;
+    }
+    .carousel-indicators button {
+      width: max-content!important;
+    }
+    .carousel-indicators {
+      position: unset;
+    }
+   </style>
+    <h2 class="d-flex justify-content-center fw-bold" style="margin-top: 40px;
+      color: rgb(4, 187, 187);">TOP CHOICE SHOES</h2>
+    <div class="justify-content-center align-items-center d-flex">
+      <div class="carousel slide w-50" id="carouselRun" data-bs-wrap="true"
+        data-bs-ride="carousel" style="margin-top: 20px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/lebron21-carousel.webp" class="w-100">
+            <div class="carousel-caption">
+              <h5>Nike Lebron 21</h5>
+              <p>
+                LeBron shoes create a lot of hype in general, but the 21 is
+                absolutely worth the energy.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/curry11-carousel.webp" class="w-100">
+            <div class="carousel-caption">
+              <h5>Under Armor Curry 11</h5>
+              <p>
+                The Curry 11 is here as a revolutionary update compared with the
+                previous models.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/gtjump2.webp" class="w-100">
+            <div class="carousel-caption">
+              <h5>Nike G.T Jump 2</h5>
+              <p>
+                True to its name, the Nike G.T. Jump 2 really knows how to
+                maximize your jumps.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/luka3-carousel.webp" class="w-100">
+            <div class="carousel-caption">
+              <h5>Jordan Luka 3</h5>
+              <p>
+                Much like the first Doncic shoe, the Jordan Luka 2 boasts
+                exceptional stability.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselRun" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselRun" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+        <div class="carousel-indicators">
+          <button type="button" class="active" data-bs-target="#carouselRun"
+            data-bs-slide-to="0">
+            <img src="./img/lebron21-carousel.webp" alt="">
+          </button>
+          <button type="button" data-bs-target="#carouselRun"
+            data-bs-slide-to="1">
+            <img src="./img/curry11-carousel.webp" alt="">
+          </button>
+          <button type="button" data-bs-target="#carouselRun"
+            data-bs-slide-to="2">
+            <img src="./img/gtjump2.webp" alt="">
+          </button>
+          <button type="button" data-bs-target="#carouselRun"
+            data-bs-slide-to="3">
+            <img src="./img/luka3-carousel.webp" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards -->
+
+    <div class="container" style="margin-top: 50px;">
+      <div class="row">
+        <div class="col-3">
+          <div class="card">
+            <img src="./img/shoes-replace.jpg" alt="Shoes" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Shoes</h5>
+              <p class="card-text">Elevate your game with our high-performance
+                basketball shoes, designed for agility, support, and style on
+                and off the court.</p>
+              <a href="./shoes.html" class="btn btn-info text-white">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="./img/balls-replace.webp" alt="Balls"
+              class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Balls</h5>
+              <p class="card-text">Dominate the court with our premium
+                basketballs, engineered for precision, grip, and superior
+                performance.</p>
+              <a href="./balls.html" class="btn btn-info text-white">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="./img/card-image-backpack.jpg" alt="Backpacks"
+              class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Backpacks</h5>
+              <p class="card-text">Carry your gear in style with our durable
+                basketball backpacks, designed for athletes on the move.</p>
+              <a href="./backpacks.html" class="btn btn-info text-white">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="./img/card-image-socks.jpg" alt="Socks"
+              class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Socks</h5>
+              <p class="card-text">Keep your feet comfortable and supported with
+                our high-performance basketball socks, designed for every move
+                on the court.</p>
+              <a href="./socks.html" class="btn btn-info text-white">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-body-secondary" style="margin-top: 50px;">
+      <div class="row">
+        <div class="col-5 d-flex">
+          <img src="./images/shoes-image-removebg-preview-removebg-preview.png"
+            alt="" style="height: 50%; width: auto ; margin-top: 75px;
+            margin-left: 50px;">
+          <h1 style="margin-top: 125px;">GoodShoes</h1>
+        </div>
+        <div class="col-3 justify-content-center align-items-center"
+          style="margin-top: 30px; margin-bottom: 30px;">
+          <h3>Quick link</h3>
+          <ul>
+            <li><a href="./about.html"><h5>About</h5></a></li>
+            <li><a href="./shoes.html"><h5>Sale</h5></a></li>
+            <li><a href="./shoes.html"><h5>Shoes</h5></a></li>
+            <li><a href="./balls.html"><h5>Balls</h5></a></li>
+            <li><a href="./backpacks.html"><h5>Backpacks</h5></a></li>
+            <li><a href="./socks.html"><h5>Socks</h5></a></li>
+          </ul>
+        </div>
+        <div class="col-4" style="margin-top: 30px;">
+          <h3>Contact us</h3>
+          <h5 style="margin-top: 30px;">Email : hphucpro2309@gmail.com</h5>
+          <h5>Phone : +84 845223910</h5>
+          <h5>Address : 28/50 Tu Lien street, Hanoi, Vietnam</h5>
+        </div>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

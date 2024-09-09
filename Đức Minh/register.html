@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/misc/icon/Icon.jpg" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Main/css/account.css">
+        <title>Register</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+            <h1>Register</h1>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Phone number</label>
+                        <input type="number" class="form-control" placeholder="+1 69696969" aria-describedby="phoneHelp" required>
+                        <div id="phoneHelp" class="form-text">We won't share your phone number to anyone else</div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="example@email.com" aria-describedby="emailHelp" required>
+                        <div id="phoneHelp" class="form-text">We won't share your email address to anyone else</div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Confirm password</label>
+                        <input type="password" class="form-control" aria-describedby="passwordHelp" required>
+                        <div id="passwordHelp" class="form-text">Enter your password one more time</div>
+                    </div>
+                    <div class="text-box">
+                        <a type="submit" class="btn btn-success" href="index.html">Register</a>
+                        <span>Already have an account?</span>
+                        <a href="login.html" class="redirect">Log in</a>
+                    </div>
+                </form>
+                <figcaption class="image-desc blockquote-footer">Image credit: Microsoft Bing</figcaption>
+            </div>
+        </div>
+    </body>
+</html>

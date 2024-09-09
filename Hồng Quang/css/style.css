@@ -1,0 +1,41 @@
+* {
+    font-size: 17px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000%;
+}
+
+.o {
+    padding-top: 10%;
+}
+
+.m {
+    padding: 20px;
+    margin: 20px;
+}
+
+.popular h2 {
+    margin-bottom: 20px;
+}
+
+.popular-img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.popular-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.popular-items {
+    display: flex;
+}

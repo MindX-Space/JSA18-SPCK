@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneFootball</title>
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #FFF5ee">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-4 fw-bold" href="#">OneFootball</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav fw-medium">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Matches</a>
+                    <a class="nav-link" href="#">Teams</a>
+                    <a class="nav-link" href="#">Competitions</a>
+                    <a class="nav-link" href="#">TV</a>
+                </div>
+
+                <div class="container">
+                    <div class="row m-4">
+                        <div class="col d-flex justify-content-center align-items-center flex-column">
+                            <div class="input-group w-50">
+                                <input type="text" id="search-input" class="form-control fw-medium"
+                                    placeholder="Search..">
+                                <button type="button" id="search" class="btn btn-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-search" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="login.html"> <button type="button" class="btn btn-primary me-4 fw-medium">Login</button> </a>
+    </nav>
+
+    <h2 class="o h3 ms-5 mt-4 mb-2 d-flex ps-2 pb-3 flex-column fw-bold">TOP NEWS</h2>
+    <p class="h5 ms-5 d-flex ps-2 flex-column fw-normal">The hottest news and views from the world of football</p>
+
+    <div class="m">
+        <div class="card mb-3" style="max-width: 1920px; max-height: 900px;">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="./img/news1.avif" class="img-fluid rounded-start" alt="news1">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="card-body">
+                        <h5 class="card-title h3">What business can we expect from Premier League clubs before transfer
+                            deadline?</h5>
+                        <p class="card-text fs-6 py-3">The clock is ticking on the transfer window with less than two
+                            weeks
+                            remaining for Premier League clubs to strengthen
+                            their squads.
+
+                            The window shuts on Friday, August 30 at 11pm BST.</p>
+                        <p class="card-text"><small class="text-body-secondary fw-normal">The Independent . 2 hours
+                                ago</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4 my-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/news2.avif" class="card-img-top" alt="news2">
+                    <div class="card-body">
+                        <h5 class="card-title">Barcelona reach agreement with Ilkay Gundogan over his future – report
+                        </h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Barca-Universal . 2 hours ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/news3.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Raheem Sterling saga sums up Chelsea chaos as club face battle to offload
+                            £50m star</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Evening Standard . 50 minutes ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/news4.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Enzo Fernandez as Chelsea captain was tone-deaf, clumsy and wrong</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">The Independent . 4 hours ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/news5.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Manchester United’s first bid for Sander Berge rejected by Burnley</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">The People Person . 2 hours ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="h3 ms-5 mt-4 mb-2 d-flex ps-2 pb-3 flex-column fw-bold">Transfer Talk</h2>
+    <p class="h5 ms-5 d-flex ps-2 flex-column fw-normal">The latest from the summer window</p>
+
+    <div class="m">
+        <div class="card mb-3" style="max-width: 1920px; max-height: 900px;">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="./img/new7.avif" class="img-fluid rounded-start" alt="news7">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="card-body">
+                        <h5 class="card-title h3">Victor Osimhen's agent delivers Chelsea and Arsenal boost with
+                            bombshell statement on Saudi Arabia transfer</h5>
+                        <p class="card-text fs-6 py-3">Roberto Calenda claims Napoli striker has “so much to do in
+                            Europe”
+
+                            Victor Osimhen appears set to reject a move to Saudi Arabia in a huge transfer boost to
+                            Chelsea and Arsenal.
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary fw-normal">Evening Standard . 2 hours
+                                ago</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4 my-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/news8.avif" class="card-img-top" alt="news2">
+                    <div class="card-body">
+                        <h5 class="card-title">Most income from player sales in a single window</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary fw-bold">Evening Standard . 2 hours ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/news9.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chiesa empties his locker as Juventus and Barcelona reach agreement –
+                            report</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Football Italia . 9 minutes ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/news10.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Uruguayan press reveal Manuel Ugarte will join Man United “in next few
+                            hours”</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">The Peoples Person . 2 hours ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/news11.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ornstein: Crystal Palace Contemplate Late Move for Arsenal Striker</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">EPL Index . 4 hours ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-3 fs-4 fw-semibold text-center text-light" style="background-color: #1A1A1A;">
+        <h2 class="fs-4 fw-semibold text-center mb-4">POPULAR COMPETITIONS</h2>
+
+        <div class="col d-flex justify-content-around">
+            <div class="popular-items d-inline rounded-4 mx-3">
+                <img src="https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F9.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=96&s=7411d3de1653b400ba9650c2402c58ff"
+                    alt class="popular-img">
+                <div class="popular-content">
+                    <p>Competition</p>
+                    <p>Premier League</p>
+                </div>
+            </div>
+
+            <div class="popular-items d-inline rounded-4 mx-3">
+                <img src="https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F10.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=96&s=e77e911b25bfc3362f40b488b107c5d6"
+                    alt class="popular-img">
+                <div class="popular-content">
+                    <p>Competition</p>
+                    <p>Laliga</p>
+                </div>
+            </div>
+
+            <div class="popular-items d-inline rounded-4 mx-3">
+                <img src="https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F1.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=96&s=79d8001b597ed98228b44e0edcf563d4"
+                    alt class="popular-img">
+                <div class="popular-content">
+                    <p>Competition</p>
+                    <p>Bundesliga</p>
+                </div>
+            </div>
+
+            <div class="popular-items d-inline rounded-4 mx-3">
+                <img src="https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2FleagueColoredCompetition%2F128%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=96&s=e5e42832fe4ef5d92f2e5d66307fe142"
+                    alt class="popular-img">
+                <div class="popular-content">
+                    <p>Competition</p>
+                    <p>Champions League</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-3 fs-4 fw-semibold text-center text-light" style="background-color: #1A1A1A;">
+        <h2 class="fs-4 fw-semibold text-center mb-4">MOST FOLLOWED TEAMS</h2>
+
+        <div class="col d-flex justify-content-around">
+            <div class="popular-items d-inline rounded-4 mx-3">
+                <img src="https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F56%2F21.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=96&s=adb0621f2981cfd8f8980ffcd9881a35"
+                    alt class="popular-img">
+                <div class="popular-content">
+                    <p>Team</p>
+                    <p>Machester United</p>
+                </div>
+            </div>
+
+            <div class="popular-items d-inline rounded-4 mx-3">
+                <img src="https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F56%2F9.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=96&s=74520075f9d8e24d791fed310ca667fb"
+                    alt class="popular-img">
+                <div class="popular-content">
+                    <p>Team</p>
+                    <p>Chelsea</p>
+                </div>
+            </div>
+
+            <div class="popular-items d-inline rounded-4 mx-3">
+                <img src="https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F56%2F5.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=96&s=8f3ce23390bdbda8e2dc690e895ceebd"
+                    alt class="popular-img">
+                <div class="popular-content">
+                    <p>Team</p>
+                    <p>Barcelona</p>
+                </div>
+            </div>
+
+            <div class="popular-items d-inline rounded-4 mx-3">
+                <img src="https://oneftbl-cms.imgix.net/https%3A%2F%2Fimages.onefootball.com%2Ficons%2Fteams%2F56%2F2.png?auto=format%2Ccompress&crop=faces&dpr=2&fit=crop&h=0&q=25&w=96&s=4011641a9aa969592a1f2f0a595079bc"
+                    alt class="popular-img">
+                <div class="popular-content">
+                    <p>Team</p>
+                    <p>Arsenal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row col d-flex justify-content-center text-center">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase fs-3 fw-bold">Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2">
+                            <a href="#" class="text-dark link-offset-2 link-underline link-underline-opacity-0">All
+                                matches
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-dark link-offset-2 link-underline link-underline-opacity-0">All
+                                teams
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-dark link-offset-2 link-underline link-underline-opacity-0">All
+                                competitions
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase fs-3 fw-bold">ABOUT US</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2">
+                            <a href="#"
+                                class="text-dark link-offset-2 link-underline link-underline-opacity-0">Companies</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="text-dark link-offset-2 link-underline link-underline-opacity-0">Careers</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="text-dark link-offset-2 link-underline link-underline-opacity-0">Contact</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-dark link-offset-2 link-underline link-underline-opacity-0">Help
+                                Center</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase fs-3 fw-bold">PARTNERS</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2">
+                            <a href="#"
+                                class="text-dark link-offset-2 link-underline link-underline-opacity-0">Sales</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-dark link-offset-2 link-underline link-underline-opacity-0">CLFP</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="text-dark link-offset-2 link-underline link-underline-opacity-0">Publisher</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-dark link-offset-2 link-underline link-underline-opacity-0">Brand
+                                Solutions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase fs-3 fw-bold">LEGAL</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2">
+                            <a href="#"
+                                class="text-dark link-offset-2 link-underline link-underline-opacity-0">Imprint</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-dark link-offset-2 link-underline link-underline-opacity-0">Privacy
+                                Policy</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-dark link-offset-2 link-underline link-underline-opacity-0">Terms
+                                and Conditions</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#"
+                                class="text-dark link-offset-2 link-underline link-underline-opacity-0">Licenses</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-dark link-offset-2 link-underline link-underline-opacity-0">Privacy
+                                Settings</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 OneFootball. All rights reserved.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

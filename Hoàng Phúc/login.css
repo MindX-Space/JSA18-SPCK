@@ -1,0 +1,34 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url(./images/sign-in.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input{
+    width: 580px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.box-area {
+    width: 930px;
+}
+
+.right-box {
+    padding: 40px 0px 40px 0px;
+}
+
+#error-message {
+    color: red;
+}
+
+.incorrect input {
+    border-color: red;
+}

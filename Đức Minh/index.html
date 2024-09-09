@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Main/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="/misc/icon/Icon.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <title>WorldWeather website</title>
+    </head>
+    <body>
+        <div class="nav">
+            <h2>WorldWeather website</h2>
+            <a href="#Weather" class="nav-items">Weather</a>
+            <a href="#Home" class="nav-items">Desc</a>
+            <a href="login.html" class="nav-items">Login</a>
+        </div>
+        <div class="container">
+            <div id="Image" class="center">
+                <h1 class="display-5">Top Destinations</h1>
+                <img src="/misc/pic/BingWallpaper (1).jpg" alt="Union Square, Manhattan, New York, USA" class="slides" width="100%">
+                <img src="/misc/pic/BingWallpaper (2).jpg" alt="Heidelberg on the river Neckar, Germany" class="slides" width="100%">
+                <img src="/misc/pic/BingWallpaper (4).jpg" alt="Himeji Castle, Himeji, Hyōgo Prefecture, Japan" class="slides" width="100%">
+                <figcaption class="image-desc opacity blockquote-footer">Image credit: Microsoft Bing</figcaption>
+            </div>
+            <header class="center">WorldWeather</header>
+            <div id="Weather" class="center padding-16">
+                <h1 class="display-6">Forecast</h1>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Preferred languages</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">VN</a></li>
+                        <li><a class="dropdown-item" href="#">EN</a></li>
+                    </ul>
+                </div>
+                <div class="row m-3">
+                    <div class="col d-flex justify-content-center align-items-center flex-column">
+                        <div class="input-group w-50">
+                            <input id="search" class="search-input col" type="text" class="form-control" placeholder="Your preferred place here" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather">
+                    <div class="info-wrapper">
+                        <h1 class="city-name">__</h1>
+                        <p class="weather-state">__</p>
+                        <p class="temperature">__</p>
+                    </div>
+                    <div class="additional-section">
+                        <div class="row">
+                            <div class="item">
+                                <div class="label">Sunrise</div>
+                                <div class="value sunrise">__</div>
+                            </div>
+                            <div class="item">
+                                <div class="label">Sunset</div>
+                                <div class="value sunset">__</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="item">
+                                <div class="label">Humidity</div>
+                                <div class="value"><span class="humidity">__</span>%</div>
+                            </div>
+                            <div class="item">
+                                <div class="label">Wind</div>
+                                <div class="value"><span class="wind-speed"></span> km/h</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Home" class="padding-16">
+                <h1 class="center display-1">Welcome to our website</h1>
+                <div class="website-desc">
+                    <p>Are you going to make any plan outside your home?</p>
+                    <p>Or are you going to travel anywhere with your friend?</p>
+                    <p>Just check the weather at our webiste: WorldWeather website!</p>
+                    <p>We promise that our service is more correct than you wanted</p>
+                    <p>So quickly check the weather right now on our website for your perfection!</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer text-center">
+            <h2>WorldWeather website</h2>
+            <div class="contact row align-items-center">
+                <div class="col">
+                    <h2 class="contact">Need help? just contact us:</h2>
+                    <p class="contact">Phone: +1 78787878</p>
+                    <p class="contact">Email: worldtravel@fastmail.com</p>
+                    <p class="contact">Address: New York, USA</p>
+                </div>
+                <img src="/misc/pic/Map.jpg" alt="Our office here" class="resize col-4">
+            </div>
+        </div>
+        <script>w3.slideshow(".slides", 1500);</script>
+        <script src="Main/js/App.js"></script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+form {
+    width: 38%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.bg {
+    background-color: #f3fdfe;
+}
+
+.btn-color {
+    background-color: #0D6EFD;
+    border: none;
+}

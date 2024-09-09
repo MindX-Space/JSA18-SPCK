@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneFootball</title>
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #FFF5ee">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-4 fw-bold" href="#">OneFootball</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav fw-medium">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Matches</a>
+                    <a class="nav-link" href="#">Teams</a>
+                    <a class="nav-link" href="#">Competitions</a>
+                    <a class="nav-link" href="#">TV</a>
+                </div>
+
+                <div class="container">
+                    <div class="row m-4">
+                        <div class="col d-flex justify-content-center align-items-center flex-column">
+                            <div class="input-group w-50">
+                                <input type="text" id="search-input" class="form-control fw-medium"
+                                    placeholder="Search..">
+                                <button type="button" id="search" class="btn btn-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-search" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="login.html"> <button type="button" class="btn btn-primary me-4 fw-medium">Login</button> </a>
+    </nav>
+
+    <h2 class="o h3 ms-5 mt-4 d-flex ps-2 pb-3 flex-column fw-bold">Watch on OneFootball</h2>
+
+    <div class="m">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/news2.avif" class="card-img-top" alt="news2">
+                    <div class="col-6">
+                        <div class="p-3">Bayern Munich </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3">Barcelona</div>
+                    </div>
+
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Barca-Universal . 2 hours ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/news3.avif" class="card-img-top" alt="...">
+                    <div class="card-body card-body row-cols-md-2">
+                        <h5 class="card-title">Raheem Sterling saga sums up Chelsea chaos as club face battle to offload
+                            £50m star</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Evening Standard . 50 minutes ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-70">
+                    <img src="./img/news4.avif" class="card-img-top" alt="...">
+                    <div class="card-body card-body row-cols-md-2">
+                        <h5 class="card-title">Enzo Fernandez as Chelsea captain was tone-deaf, clumsy and wrong</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">The Independent . 4 hours ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
